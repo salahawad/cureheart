@@ -38,7 +38,7 @@ Install yarn globally
 yarn install yarn -g
 ```
 
-Install a MySQL database.
+Install a Mongo database.
 
 > If you work with a mac, we recommend to use homebrew for the installation.
 
