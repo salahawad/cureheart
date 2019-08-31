@@ -5,6 +5,8 @@ const Patient = mongoose.Schema({
     email: String,
     phone_number: Number,
     digital_id: String
+}, {
+    timestamps: true
 });
 
 module.exports = mongoose.model('patient', Patient);
